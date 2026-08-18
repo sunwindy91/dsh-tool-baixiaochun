@@ -1,0 +1,7 @@
+# 白小纯修仙工具插件 - Cordis bundle patch
+# 把 @sunwindy/dsh-tool-baixiaochun 注册为 DSH profile 的一个插件层
+# 参照 dsh-base 的 patch 格式：insert 列表，每行一个插件
+
+- insert:
+    - id: baixiaochun
+      name: '@sunwindy/dsh-tool-baixiaochun'

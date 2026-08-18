@@ -1,0 +1,27 @@
+{
+  "name": "@sunwindy/dsh-tool-baixiaochun",
+  "version": "0.1.5",
+  "description": "白小纯修仙工具插件 —— 把白小纯（灵溪宗修士）封装为 DSH 可用工具：今日灵签/灵气检测/修为汇报/命理分析/小世界构建",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": {
+      "default": "./lib/index.js"
+    },
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib/index.js",
+    "cordis.patch.yml"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@deepseek-ai/dsh-tools": "^0.1.0-rc.6"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}
