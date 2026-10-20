@@ -1,0 +1,89 @@
+{
+  "format": 1,
+  "title": {
+    "en": "Sunwindy DSH plugins",
+    "zh": "灵溪 DSH 插件"
+  },
+  "description": {
+    "en": "Small, local-first tools for DeepSeek Harness by sunwindy91.",
+    "zh": "sunwindy91 的 DSH 本地优先小工具。"
+  },
+  "plugins": [
+    {
+      "name": "@sunwindy/dsh-tool-baixiaochun",
+      "title": {
+        "en": "Baixiaochun",
+        "zh": "白小纯修仙工具"
+      },
+      "description": {
+        "en": "Fortune, liveness probe, session stats and desktop-pet controls.",
+        "zh": "灵签 / 灵气检测 / 修为汇报 / 桌宠显示控制。"
+      },
+      "author": "sunwindy91",
+      "homepage": "https://github.com/sunwindy91/dsh-tool-baixiaochun#readme",
+      "repository": {
+        "url": "https://github.com/sunwindy91/dsh-tool-baixiaochun"
+      },
+      "metadata": {
+        "keywords": [
+          "dsh-plugin",
+          "tool",
+          "pet",
+          "fortune"
+        ]
+      },
+      "versions": [
+        {
+          "version": "0.2.1",
+          "publishTimestamp": 1792511876,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/sunwindy91/dsh-tool-baixiaochun",
+            "commit": "a92dee313cf37c6d6d601b194b0f2ec4101fe2f6"
+          },
+          "engines": {
+            "dsh": ">=0.2.0-rc.2 <1.0.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "@sunwindy/dsh-tool-meta",
+      "title": {
+        "en": "Meta",
+        "zh": "自进化元认知引擎"
+      },
+      "description": {
+        "en": "Observe tool failures, distill SKILL lessons, and gate irreversible actions with an audit ledger.",
+        "zh": "观测工具失败 → 反思沉淀 SKILL → 不可逆动作闸门与审计流水。"
+      },
+      "author": "sunwindy91",
+      "homepage": "https://github.com/sunwindy91/dsh-tool-meta#readme",
+      "repository": {
+        "url": "https://github.com/sunwindy91/dsh-tool-meta"
+      },
+      "metadata": {
+        "keywords": [
+          "dsh-plugin",
+          "skill",
+          "guardrail",
+          "audit"
+        ]
+      },
+      "versions": [
+        {
+          "version": "0.6.5",
+          "publishTimestamp": 1792511876,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/sunwindy91/dsh-tool-meta",
+            "commit": "18a94b0c70e808a01440d355a3f8612b26ed38e1"
+          },
+          "engines": {
+            "dsh": ">=0.2.0-rc.2 <1.0.0"
+          }
+        }
+      ]
+    }
+  ]
+}
