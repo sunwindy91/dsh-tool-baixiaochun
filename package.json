@@ -1,7 +1,7 @@
 {
   "name": "@sunwindy/dsh-tool-baixiaochun",
-  "version": "0.1.5",
-  "description": "白小纯修仙工具插件 —— 把白小纯（灵溪宗修士）封装为 DSH 可用工具：今日灵签/灵气检测/修为汇报/命理分析/小世界构建",
+  "version": "0.2.1",
+  "description": "白小纯修仙工具插件 —— 把白小纯（灵溪宗修士）封装为 DSH 可用工具：今日灵签 / 灵气检测 / 修为汇报 / 桌宠显示控制",
   "type": "module",
   "main": "lib/index.js",
   "exports": {
@@ -13,11 +13,40 @@
   },
   "files": [
     "lib/index.js",
-    "cordis.patch.yml"
+    "cordis.patch.yml",
+    "README.md",
+    "LICENSE",
+    "CHANGELOG.md"
   ],
   "license": "MIT",
-  "dependencies": {
-    "@deepseek-ai/dsh-tools": "^0.1.0-rc.6"
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "cordis",
+    "plugin",
+    "tool",
+    "pet"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sunwindy91/dsh-tool-baixiaochun.git"
+  },
+  "homepage": "https://github.com/sunwindy91/dsh-tool-baixiaochun#readme",
+  "bugs": {
+    "url": "https://github.com/sunwindy91/dsh-tool-baixiaochun/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "peerDependencies": {
+    "@deepseek-ai/dsh-tools": ">=0.2.0-rc.2 <1.0.0"
+  },
+  "engines": {
+    "dsh": ">=0.2.0-rc.2 <1.0.0"
   },
   "dsh": {
     "bundle": {
